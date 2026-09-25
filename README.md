@@ -2,4 +2,4 @@
 
 Nouveau départ. 🚀
 
-> L'ancien projet est sauvegardé dans le tag `backup-avant-reset`.
+> L'ancien projet est sauvegardé dans la branche `backup-avant-reset`.
