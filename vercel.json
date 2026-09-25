@@ -1,6 +1,7 @@
 {
   "framework": null,
-  "installCommand": "echo skip",
-  "buildCommand": "echo skip",
-  "outputDirectory": "public"
+  "installCommand": "bun install",
+  "buildCommand": "cd packages/app && VITE_OPENCODE_SERVER_HOST=localhost VITE_OPENCODE_CHANNEL=prod bun run build",
+  "outputDirectory": "packages/app/dist",
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
 }
